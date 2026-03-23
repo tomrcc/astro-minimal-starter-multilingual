@@ -11,10 +11,14 @@ interface Props {
   image_alt: string;
   tags: Array<string>;
   bodyContent: string;
+  locale?: string;
+  suppressRosey?: boolean;
 }
 
-const { heading, date, author, image, image_alt, tags, bodyContent } =
+const { heading, date, author, image, image_alt, tags, bodyContent, locale, suppressRosey } =
   Astro.props;
+const roseyHeading = suppressRosey ? {} : { "data-rosey": "heading" };
+const tagBase = locale ? `/${locale}/tags` : "/tags";
 
 const wordCount = bodyContent?.split(" ")?.length ?? 0;
 const dateObj = new Date(date);
@@ -55,7 +59,7 @@ const imageSrc = images[image]?.default || image;
   <h1
     data-editable="text"
     data-prop="heading"
-    data-rosey="heading"
+    {...roseyHeading}
     class="text-3xl md:text-4xl font-bold mt-4 mb-2 text-balance">
     {heading}
   </h1>
@@ -64,7 +68,7 @@ const imageSrc = images[image]?.default || image;
       <div class="flex flex-wrap gap-2 my-2">
         {tags.map((tag: string) => (
           <a
-            href={`/tags/${tag}/`}
+            href={`${tagBase}/${tag}/`}
             class="bg-gray-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-md no-underline">
             {tag.charAt(0).toUpperCase() + tag.slice(1)}
           </a>

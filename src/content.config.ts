@@ -14,22 +14,34 @@ const seoSchema = z
   })
   .optional();
 
+const blogSchema = z.object({
+  title: z.string(),
+  post_hero: z.object({
+    date: z.string().or(z.date()),
+    heading: z.string(),
+    tags: z.array(z.string()),
+    author: z.string(),
+    image: z.string(),
+    image_alt: z.string(),
+  }),
+  thumb_image_path: z.string(),
+  thumb_image_alt: z.string(),
+  seo: seoSchema,
+});
+
 const blogCollection = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/blog" }),
-  schema: z.object({
-    title: z.string(),
-    post_hero: z.object({
-      date: z.string().or(z.date()),
-      heading: z.string(),
-      tags: z.array(z.string()),
-      author: z.string(),
-      image: z.string(),
-      image_alt: z.string(),
-    }),
-    thumb_image_path: z.string(),
-    thumb_image_alt: z.string(),
-    seo: seoSchema,
-  }),
+  schema: blogSchema,
+});
+
+const blogFrCollection = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/blog_fr" }),
+  schema: blogSchema,
+});
+
+const blogDeCollection = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/blog_de" }),
+  schema: blogSchema,
 });
 
 const pageSchema = z.object({
@@ -52,5 +64,7 @@ const pagesCollection = defineCollection({
 
 export const collections = {
   blog: blogCollection,
+  blog_fr: blogFrCollection,
+  blog_de: blogDeCollection,
   pages: pagesCollection,
 };

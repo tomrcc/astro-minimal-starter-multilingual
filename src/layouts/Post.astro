@@ -3,6 +3,7 @@ import Layout from "./Layout.astro";
 import PostSummary from "../components/blog/summary.astro";
 import PostHero from "../components/blog/post-hero/post-hero.astro";
 import { getCollection } from "astro:content";
+import { locales } from "../lib/locales";
 
 type Props = {
   frontmatter: {
@@ -17,21 +18,24 @@ type Props = {
     };
   };
   body: string;
+  locale?: string;
+  roseyRoot?: string;
 };
 
-const { frontmatter, body } = Astro.props;
+const { frontmatter, body, locale, roseyRoot } = Astro.props;
 
-const posts = await getCollection("blog");
+const collectionName = locale ? locales[locale].collection : "blog";
+const posts = await getCollection(collectionName);
 const filteredPosts = posts.filter(
   (post) => post.data.title !== frontmatter.title,
 );
 ---
 
-<Layout {...frontmatter}>
+<Layout {...frontmatter} roseyRoot={roseyRoot}>
   <div class="mx-auto max-w-3xl px-8 py-12 md:py-20">
     <article>
       <editable-component data-prop="post_hero" data-component="PostHero">
-        <PostHero {...frontmatter.post_hero} bodyContent={body} />
+        <PostHero {...frontmatter.post_hero} bodyContent={body} locale={locale} suppressRosey={!!locale} />
       </editable-component>
       <div class="prose" data-pagefind-body>
         <editable-text data-prop="@content" data-type="block">
@@ -48,7 +52,7 @@ const filteredPosts = posts.filter(
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {filteredPosts.slice(0, 3).map((post) => (
             <li>
-              <PostSummary {...post} loading="lazy" />
+              <PostSummary {...post} locale={locale} loading="lazy" />
             </li>
           ))}
         </ul>
