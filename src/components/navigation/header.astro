@@ -1,8 +1,9 @@
 ---
 import { header } from "../../../data/navigation.json";
+import LocalePicker from "./locale-picker.astro";
 ---
 
-<header class="bg-white">
+<header class="bg-white" data-rosey-ns="nav">
   <div class="mx-auto max-w-6xl px-8">
     <nav class="flex items-center justify-between py-4">
       <a href={header.logo_url}>
@@ -10,13 +11,16 @@ import { header } from "../../../data/navigation.json";
       </a>
 
       <ul class="hidden sm:flex items-center gap-6">
-        {header.links.map((link) => (
+        {header.links.map((link, i) => (
           <li>
-            <a class="text-gray-700 hover:text-gray-500 transition-colors" href={link.link}>
+            <a class="text-gray-700 hover:text-gray-500 transition-colors" href={link.link} data-rosey={`link-${i}`}>
               {link.text}
             </a>
           </li>
         ))}
+        <li>
+          <LocalePicker />
+        </li>
       </ul>
 
       <button
@@ -48,13 +52,16 @@ import { header } from "../../../data/navigation.json";
           </button>
         </div>
         <ul class="flex flex-1 flex-col items-center justify-center gap-0 divide-y divide-gray-200">
-          {header.links.map((link) => (
+          {header.links.map((link, i) => (
             <li class="w-full max-w-xs text-center">
-              <a class="block py-5 text-2xl font-medium text-gray-800 hover:text-blue-600 transition-colors" href={link.link}>
+              <a class="block py-5 text-2xl font-medium text-gray-800 hover:text-blue-600 transition-colors" href={link.link} data-rosey={`link-${i}`}>
                 {link.text}
               </a>
             </li>
           ))}
+          <li class="w-full max-w-xs text-center py-5">
+            <LocalePicker />
+          </li>
         </ul>
         </div>
       </div>

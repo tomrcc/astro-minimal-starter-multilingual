@@ -15,13 +15,14 @@ const { heading, text_content } = Astro.props;
       <h2
         data-editable="text"
         data-prop="heading"
+        data-rosey="heading"
         class="text-2xl md:text-3xl font-bold mb-6 text-balance"
       >
         {heading}
       </h2>
     )}
     <div class="text-gray-600">
-      <Markdown content={text_content} dataProp="text_content" dataType="block" />
+      <Markdown content={text_content} dataProp="text_content" dataType="block" dataRosey="text_content" />
     </div>
   </div>
 </section>

@@ -1,0 +1,476 @@
+{
+  "version": 2,
+  "keys": {
+    "404:back-home": {
+      "original": "\n← Back home\n",
+      "value": null,
+      "pages": {
+        "404.html": 1
+      },
+      "total": 1
+    },
+    "404:heading": {
+      "original": "Page not found!",
+      "value": null,
+      "pages": {
+        "404.html": 1
+      },
+      "total": 1
+    },
+    "about:contact:details": {
+      "original": " <p>\nHave a question or want to work together? Reach out at\n<a href=\"mailto:hello@example.com\">hello@example.com</a>\nor find us on <a href=\"https://github.com\">GitHub</a>.\n</p> ",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "about:contact:heading": {
+      "original": "\nGet in Touch\n",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "about:intro:description": {
+      "original": " <p>\nWe're a small team passionate about building great websites. This page\n          is a standalone Astro component edited with\n<strong>source editables</strong> — the content you see here lives directly\n          in the template and is edited visually through CloudCannon.\n</p> ",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "about:intro:heading": {
+      "original": "\nAbout Us\n",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/data-files:heading": {
+      "original": " Data files ",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/data-files:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/lighthouse-scores:heading": {
+      "original": " Green Lighthouse Scores ",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/lighthouse-scores:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/markdown:heading": {
+      "original": " Markdown Editing ",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/markdown:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/optimized-images:heading": {
+      "original": " Optimized Images ",
+      "value": null,
+      "pages": {
+        "blog/optimized-images/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/optimized-images:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/optimized-images/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/paginated-collection:heading": {
+      "original": " Paginated Collections ",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/paginated-collection:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/search:heading": {
+      "original": " Pagefind Search ",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/search:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/seo:heading": {
+      "original": " SEO Controls ",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/seo:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/tailwind:heading": {
+      "original": " Tailwind CSS v4 ",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/tailwind:recent-posts": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 1
+      },
+      "total": 1
+    },
+    "footer:copyright": {
+      "original": "\n© 2026 MyCompany. All rights reserved. ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/2/index.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/optimized-images/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 26
+    },
+    "footer:link-0": {
+      "original": " Blog ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/2/index.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/optimized-images/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 26
+    },
+    "footer:link-1": {
+      "original": " RSS Feed ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/2/index.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/optimized-images/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 26
+    },
+    "index:LeftRight-0:heading": {
+      "original": " Keep what you need. Delete the rest. ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:LeftRight-0:text_content": {
+      "original": "<p>This starter aims to get developers building their own site quickly in CloudCannon. It strikes a balance between minimal boilerplate and useful features out of the box:</p>\n<ul>\n<li>Tailwind CSS v4</li>\n<li>Blog with pagination &amp; tags</li>\n<li>Visual editing with Editable Regions</li>\n<li>Header and Footer controls</li>\n<li>Create and delete pages</li>\n<li>SEO controls</li>\n</ul>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:LeftRight-1:button_text": {
+      "original": " CloudCannon Docs ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:LeftRight-1:heading": {
+      "original": " You choose your editing experience. ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:LeftRight-1:text_content": {
+      "original": "<p>A flexible git-backed CMS that specialises in editing markdown and data files.</p>\n<p>Visual editing allows you to preview your changes live before you save them.</p>\n<p>Git-backed means you can keep all your familiar git workflows, while providing an easy-to-understand interface for non-technical editors to collaborate via git.</p>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:hero:button_text": {
+      "original": " Get Started ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:hero:heading": {
+      "original": " Astro Minimal Starter ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:hero:subheading": {
+      "original": "<p>A <strong>minimal</strong> starting point for developers looking to build a website with Astro, using Editable Regions in CloudCannon. Create your own copy, and start creating your own components to use in the Visual Editor.</p>\n<p>Once you've explored this minimal starter, consider  taking a look at the <a href=\"https://github.com/CloudCannon/astro-component-starter\">Astro Component Starter</a> to assist in building out your components.</p>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "nav:link-0": {
+      "original": " About ",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "about/index.html": 2,
+        "blog/2/index.html": 2,
+        "blog/data-files/index.html": 2,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/optimized-images/index.html": 2,
+        "blog/paginated-collection/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "index.html": 2,
+        "tags/accessibility/index.html": 2,
+        "tags/building/index.html": 2,
+        "tags/data/index.html": 2,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 2,
+        "tags/inputs/index.html": 2,
+        "tags/markdown/index.html": 2,
+        "tags/navigation/index.html": 2,
+        "tags/pagination/index.html": 2,
+        "tags/search/index.html": 2,
+        "tags/seo/index.html": 2,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 2
+      },
+      "total": 52
+    },
+    "nav:link-1": {
+      "original": " Blog ",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "about/index.html": 2,
+        "blog/2/index.html": 2,
+        "blog/data-files/index.html": 2,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/optimized-images/index.html": 2,
+        "blog/paginated-collection/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "index.html": 2,
+        "tags/accessibility/index.html": 2,
+        "tags/building/index.html": 2,
+        "tags/data/index.html": 2,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 2,
+        "tags/inputs/index.html": 2,
+        "tags/markdown/index.html": 2,
+        "tags/navigation/index.html": 2,
+        "tags/pagination/index.html": 2,
+        "tags/search/index.html": 2,
+        "tags/seo/index.html": 2,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 2
+      },
+      "total": 52
+    },
+    "nav:link-2": {
+      "original": " GitHub ",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "about/index.html": 2,
+        "blog/2/index.html": 2,
+        "blog/data-files/index.html": 2,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/optimized-images/index.html": 2,
+        "blog/paginated-collection/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "index.html": 2,
+        "tags/accessibility/index.html": 2,
+        "tags/building/index.html": 2,
+        "tags/data/index.html": 2,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 2,
+        "tags/inputs/index.html": 2,
+        "tags/markdown/index.html": 2,
+        "tags/navigation/index.html": 2,
+        "tags/pagination/index.html": 2,
+        "tags/search/index.html": 2,
+        "tags/seo/index.html": 2,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 2
+      },
+      "total": 52
+    },
+    "nav:link-3": {
+      "original": " CloudCannon ",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "about/index.html": 2,
+        "blog/2/index.html": 2,
+        "blog/data-files/index.html": 2,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/optimized-images/index.html": 2,
+        "blog/paginated-collection/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "index.html": 2,
+        "tags/accessibility/index.html": 2,
+        "tags/building/index.html": 2,
+        "tags/data/index.html": 2,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 2,
+        "tags/inputs/index.html": 2,
+        "tags/markdown/index.html": 2,
+        "tags/navigation/index.html": 2,
+        "tags/pagination/index.html": 2,
+        "tags/search/index.html": 2,
+        "tags/seo/index.html": 2,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 2
+      },
+      "total": 52
+    }
+  }
+}

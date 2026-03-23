@@ -162,6 +162,26 @@ collections_config:
       image:
         type: image
 
+  locales:
+    path: rosey/locales
+    name: Locales
+    icon: translate
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    _inputs:
+      value:
+        type: html
+        label: Translation
+        cascade: true
+      original:
+        hidden: true
+        cascade: true
+      _base_original:
+        disabled: true
+        hidden: false
+        label: Original Text
+        cascade: true
 collection_groups:
   - heading: Pages
     collections:
@@ -170,11 +190,18 @@ collection_groups:
   - heading: Data
     collections:
       - data
+  - heading: Locales
+    collections:
+      - locales
 
 data_config:
   tags:
     path: data/tags.json
 
+  locales_fr:
+    path: rosey/locales/fr.json
+  locales_de:
+    path: rosey/locales/de.json
 _editables:
   content:
     blockquote: true
